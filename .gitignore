@@ -1,0 +1,7 @@
+# Untracked files
+
+# VS Code settings
+.vscode/
+
+# Pyhton interpreter files
+_pycache_/
