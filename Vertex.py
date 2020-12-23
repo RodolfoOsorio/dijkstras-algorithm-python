@@ -10,9 +10,9 @@ class Vertex:
 		self.pi = None
 		self.key = infinity
 
-	def add_neighboor(self, neighboor, weight=0):
+	def add_neighbor(self, neighbor, weight=0):
 #		add element to dictionary with [key] and value
-		self.adjacent[neighboor] = weight
+		self.adjacent[neighbor] = weight
 
 	def adjacentList(self):
 			return list(self.adjacent.keys())

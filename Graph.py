@@ -17,10 +17,10 @@ class Graph(): #el grafo en esencia es un diccionario
 		if end not in self.G:
 			self.add_vertex(end)
 		if diagraph == 1:
-			self.G[start].add_neighboor(self.G[end], weight)
+			self.G[start].add_neighbor(self.G[end], weight)
 		else:
-			self.G[start].add_neighboor(self.G[end], weight)
-			self.G[end].add_neighboor(self.G[start], weight)
+			self.G[start].add_neighbor(self.G[end], weight)
+			self.G[end].add_neighbor(self.G[start], weight)
 
 	def get_vertices(self):
 		return list(self.G.values())
