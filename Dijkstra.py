@@ -1,5 +1,5 @@
 ############################################
-#     Dijkstra class (python 2.7)          #
+#     Dijkstra class (python 3)          #
 ############################################
 
 from Graph import *
@@ -30,7 +30,7 @@ def reset(graph):
     for i in graph.get_vertices():
         i.key = infinity
 
-
+'''
 def main():
     g = Graph()  # Object Graph
     g.add_edge('A','B',10)
@@ -52,3 +52,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+'''
