@@ -29,6 +29,7 @@ def printPath(Gr, end):
 def reset(graph):
     for i in graph.get_vertices():
         i.key = infinity
+        i.pi = None
 
 '''
 def main():
