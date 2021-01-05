@@ -9,7 +9,7 @@ def shortestPath(Gr,root):
     Gr.set_startNode(root) # start path
 
     while Q:
-        Q.sort(key=lambda x : x.key)    # Sorts by key
+        Q.sort(key=lambda x : x.key)    # Sorts by key. lambda is a python function
         u = Q.pop(0)                    # Remove smallest key
 
         for v in list(u.adjacent.keys()):
